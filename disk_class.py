@@ -36,9 +36,6 @@ class Disk(Basic_object):
         else:
             rad = pi/2
 
-    def get_top(self):
-        return self.rect.top
-
-    def get_bottom(self):
-        return self.rect.bottom
+    def get_center(self):
+        return self.rect.center
         
